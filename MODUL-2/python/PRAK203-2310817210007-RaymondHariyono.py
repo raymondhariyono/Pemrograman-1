@@ -1,0 +1,6 @@
+print("input")
+a,b,i,j,x,y = map(float, input().split())
+hasil= (a-b)*(i/j)-(x+y)
+print()
+print("Output")
+print(f"hasil dari {hasil:.3f}")
